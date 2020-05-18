@@ -24,6 +24,10 @@
   color: white;
 }
 
+.topContainer{ 
+  display: flex;
+  flex-direction: row;
+}
 .App-link {
   color: #61dafb;
 }
