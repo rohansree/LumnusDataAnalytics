@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #909497;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -29,8 +29,51 @@
   flex-direction: row;
 }
 .App-link {
-  color: #61dafb;
+  color: #1C2833;
 }
+
+
+.boxGallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.gallery {
+  max-width: 510px;
+  width: 50%;
+  margin: 30px;
+  float: left;
+  padding-bottom: 0px;
+}
+
+.gallery img {
+  width: 510px;
+  height: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.desc {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.body {
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  line-height: 1.75;
+}
+
 
 @keyframes App-logo-spin {
   from {
