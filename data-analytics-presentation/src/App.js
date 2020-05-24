@@ -58,13 +58,11 @@ function App() {
 
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload. In anycase
-          Here is where we will be putting a lot of information and 
-          I would also like some graphs at the side or in the middle
-          whihc we can analyze and then present. Yeah. I would like
-          a klayout of garphs two number and then we could do some basic
-          analyzatio of thtem  ALSO this section should be replaced by the
-          prompt
+          Edit <code>src/App.js</code> and save to reload.
+          LendingClub.com underwrites different types of loans for their clients. 
+          We created visual representations of this data and performed statistical
+          analysis, generating insights on the differences between paid and unpaid 
+          loans.
         </p>
 
 
@@ -257,11 +255,10 @@ function App() {
 
         <div class="body">
           <p>
-            TODO: someone please talk about these trends please ty
-            I have slopes and y-intercepts in the .html file that
-            is on the github (LoanDataAnalysis.html)
-            wordy wordy words wordsa blda;lfaksjdf;ksldjfa;slbk
-            ba;dslfkjas;dfkjlad; blah blah blah
+            Monthly Installment Payments start lower for fully paid loans, but 
+            increase at a faster rate than unpaid loans. For fully paid loans, 
+            more money in high-interest rate payments goes toward the principal 
+            amount, possibly directly contributing to the fully paid status.
           </p>
         </div>
 
@@ -274,6 +271,16 @@ function App() {
             <img src={intrateandinstallnfp}>
             </img>
           </div>
+          <div class="body">
+          <p>
+            For low interest rate loans, loans not fully paid back tend
+            to have lower FICO scores. However, as evidenced by the smaller
+            slope of the regression line for the not fully paid loan graph,
+            high interest rates have similar FICO scores between fully paid
+            and unpaid loans.
+
+          </p>
+        </div>
           <div class="gallery">
             <img src={intrateandficofp}>
             </img>
@@ -282,6 +289,15 @@ function App() {
             <img src={intrateandficonfp}>
             </img>
           </div>
+          <div class="body">
+          <p>
+            While the annual income associated with loans still unpaid is
+            slightly lower, there is very little difference between the data
+            for fully paid and not fully paid loans. There is little evidence
+            that loan payment status is a confounding variable between annual
+            income and monthly installment payments.
+          </p>
+        </div>
           <div class="gallery">
             <img src={installandannualincfp}>
             </img>
@@ -290,6 +306,16 @@ function App() {
             <img src={installandannualincnfp}>
             </img>
           </div>
+          <div class="body">
+          <p>
+            Unlike the previous analysis, loan payment status seems to be a
+            major difference maker when comparing Annual Income and Days 
+            Within Credit Line. Accounts with fully paid loans have longer 
+            access to credit lines, at all levels of annual income. In fact, 
+            the regression line also has a higher slope for paid loans, meaning 
+            access to credit is even more unequal as income level increases.
+          </p>
+        </div>
           <div class="gallery">
             <img src={annualincanddaysfp}>
             </img>
@@ -298,6 +324,15 @@ function App() {
             <img src={annualincanddaysnfp}>
             </img>
           </div>
+          <div class="body">
+          <p>
+           Fully paid loans skew upward, toward more revolving balance. At lower 
+           annual income levels, fully paid loans have a higher revolving balance, 
+           but this gap is closed as annual income increases. At the higher levels 
+           of income, there is little difference in revolving balance between paid 
+           and unpaid loans.
+          </p>
+        </div>
           <div class="gallery">
             <img src={annualincandbalfp}>
             </img>
@@ -306,6 +341,15 @@ function App() {
             <img src={annualincandbalnfp}>
             </img>
           </div>
+          <div class="body">
+          <p>
+           Higher FICO scores correlate with more Days Within Credit Line. 
+           This makes intuitive sense as well; a better credit score should 
+           mean longer and easier access to credit. This correlation holds 
+           strongly for both paid and unpaid loans, and it seems that loan 
+           payment status is not an influential variable in this situation.
+          </p>
+        </div>
           <div class="gallery">
             <img src={ficoanddaysfp}>
             </img>
@@ -314,6 +358,13 @@ function App() {
             <img src={ficoanddaysnfp}>
             </img>
           </div>
+          <div class="body">
+          <p>
+           At lower FICO scores, fully paid loans have a higher Credit Utilization Rate. 
+           Curiously, the rate of change in unpaid loans is greater, meaning the opposite holds 
+           true at higher FICO scores: unpaid loans have a higher Credit Utilization Rate.
+          </p>
+        </div>
           <div class="gallery">
             <img src={ficoandutilfp}>
             </img>
@@ -322,6 +373,15 @@ function App() {
             <img src={ficoandutilnfp}>
             </img>
           </div>
+          <div class="body">
+          <p>
+           These pair of graphs look at the relationship between FICO scores and the 
+           Number of Credit Inquiries in the past 6 months. Those with unpaid loans 
+           have more credit inquiries, at all FICO scores. This is interesting, because 
+           many credit inquiries directly lower FICO scores, so the unpaid loan status 
+           seems to be a difference maker.
+          </p>
+        </div>
           <div class="gallery">
             <img src={ficoandinqfp}>
             </img>
@@ -335,7 +395,7 @@ function App() {
 
 
         <div class="desc">
-          <p>Other Insights</p>
+          <p></p>
         </div>
 
         <div class="boxGallery">
