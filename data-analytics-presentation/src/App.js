@@ -252,16 +252,17 @@ function App() {
           <p>Trends Across Paid and Unpaid Loans</p>
         </div>
 
-        <div class="body">
-          <p>
-            Monthly Installment Payments start lower for fully paid loans, but 
-            increase at a faster rate than unpaid loans. For fully paid loans, 
-            more money in high-interest rate payments goes toward the principal 
-            amount, possibly directly contributing to the fully paid status.
-          </p>
-        </div>
+       
 
         <div class="boxGallery">
+          <div class="body">
+            <p>
+              Monthly Installment Payments start lower for fully paid loans, but 
+              increase at a faster rate than unpaid loans. For fully paid loans, 
+              more money in high-interest rate payments goes toward the principal 
+              amount, possibly directly contributing to the fully paid status.
+            </p>
+          </div>
           <div class="gallery">
             <img src={intrateandinstallfp}>
             </img>
@@ -397,24 +398,6 @@ function App() {
           <p></p>
         </div>
 
-        <div class="boxGallery">
-          <div class="gallery">
-            <img src={pika}>
-            </img>
-          </div>
-          <div class="gallery">
-            <img src={truth}>
-            </img>
-          </div>
-          <div class="gallery">
-            <img src={truth}>
-            </img>
-          </div>
-          <div class="gallery">
-            <img src={pika}>
-            </img>
-          </div>
-        </div>
 
       </header>
     </div>
