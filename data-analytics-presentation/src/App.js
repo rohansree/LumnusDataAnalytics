@@ -58,7 +58,6 @@ function App() {
 
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
           LendingClub.com underwrites different types of loans for their clients. 
           We created visual representations of this data and performed statistical
           analysis, generating insights on the differences between paid and unpaid 
